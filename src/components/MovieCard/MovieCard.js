@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MovieCard.scss"
+import "./MovieCard.scss";
 
 const MovieCard = ({ data: { Title, Year, Poster, imdbID } }) => {
   console.log(Year);

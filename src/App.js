@@ -7,7 +7,6 @@ import PageNotFound from "./components/PageNotFound/PageNotFound";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-
   return (
     <BrowserRouter>
       <div className="App">

@@ -16,7 +16,7 @@ const MovieListing = () => {
           <div className="movie-container">
             {movies.Response === "True" ? (
               movies?.Search?.map((movie, id) => (
-                <MovieCard id={id} data={movie} />
+                <MovieCard key={id} data={movie} />
               ))
             ) : (
               <div className="movies-error">
