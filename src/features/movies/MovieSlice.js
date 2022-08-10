@@ -63,7 +63,7 @@ const movieSlice = createSlice({
   },
   extraReducers: {
     [fetchAllMovies.pending]: () => {
-      console.log("promise pending");
+      // console.log("promise pending");
     },
     //returned obj form promise will have some extra properties destructure payload
     [fetchAllMovies.fulfilled]: (state, { payload }) => {
